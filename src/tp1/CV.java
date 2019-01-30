@@ -40,4 +40,14 @@ public class CV {
 			System.out.println();
 		}
 	 
+	 public static void main(String[] args) {
+			// TODO Auto-generated method stub
+
+			System.out.println("Bienvenue chez Barette!");
+			System.out.println();
+			pascal.affiche();
+			yassine.affiche();
+
+		}
+	 
 }
