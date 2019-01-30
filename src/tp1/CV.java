@@ -28,4 +28,16 @@ public class CV {
 	 static CV pascal = new CV("Raymond", "Pascal", "Etudiant" , (int) 0.5, compet , "Un prof qui explique clairement le cours/but de celui-ci" );
 	 static CV yassine = new CV("Choujaaaa", "Yassine", "Etudiant" , (int) 0,compet, "Aucune" );
 	
+	 public void affiche() {
+			
+			System.out.println("____________CV____________");
+			System.out.println("Nom: "+ nom);
+			System.out.println("Prenom: "+ prenom);
+			System.out.println("Formation: "+ formation);
+			System.out.println("Nombre d'annee d'experience: "+ annee);
+			System.out.println("Competence: "+ Arrays.toString(competence));
+			System.out.println("Attentes vis a vis au cours: "+ attente);
+			System.out.println();
+		}
+	 
 }
